@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Enrollment Form</h1>
+        <form id="crud-form">
+
+            <label for="firstname">Firstname</label>
+            <input type="text" placeholder="Enter Firstname" name="firstname" required>
+
+            <label for="middlename">Middle Name</label>
+            <input type="text" placeholder="Enter Middlename" name="middlename" required>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" placeholder="Enter Lastname" name="lastname" required>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+
+            <label for="birthday">Birthday</label>
+            <input type="date" placeholder="Enter Birthday" name="birthday" required>
+
+            <label for="course">Course</label>
+            <input type="text" placeholder="Enter Course" name="course" required>
+
+            <label for="schoolyear">School Year</label>
+            <input type="text" placeholder="Enter SchoolYear" name="schoolyear" required>
+
+            <button type="submit" class="submit">Submit</button>
+        </form>
+        <ul id="update-list">
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
